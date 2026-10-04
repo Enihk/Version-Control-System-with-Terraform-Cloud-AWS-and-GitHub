@@ -7,5 +7,6 @@ variable "aws_region" {
 variable "admin_cidr" {
   description = "Your trusted public IP address in CIDR notation"
   type        = string
+  default = "0.0.0.0/0"
 }
 
